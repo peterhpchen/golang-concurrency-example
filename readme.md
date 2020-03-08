@@ -1,6 +1,6 @@
 # Golang concurrency example
 
-此庫為 [Go 的並發：Goroutine 與 Channel 介紹]() 一文的範例程式。
+此庫為 [Go 的並發：Goroutine 與 Channel 介紹](https://peterhpchen.github.io/2020/03/08/goroutine-and-channel.html) 一文的範例程式。
 
 ## How to use
 
@@ -16,7 +16,7 @@ docker run peter3598768/golang-concurrency-example single-thread.go
 docker run -v $(PWD)/src:/go golang go run single-thread.go
 ```
 
-* 本機：
+* 本機：
 
 ```bash
 go run src/single-thread.go
